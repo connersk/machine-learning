@@ -50,6 +50,8 @@ QUESTION: REPORT THE DIFFERENT VALUES FOR THE PARAMETERS TUNED IN YOUR BASIC IMP
   behind this was that I was unsure what would be good for alpha and gamma so I left them as 0.5 (the middle value), whereas it seemed necessary to keep gamma small in order for the Q-learning to happen most of the time.
  However, after setting up the agent to measure the success rate, I decided to measure the average success rate over 3 iterations for 10 different combinations of parameters. The results were as follows and illustrated that the best option is to set alpha = 0.7, gamma = 0.5, and epsilon = 0.05. However, while this produced the best success rate for my trials, the values for the success rate had very little variance and were all very high, indicating that this Q-learning implementation is robust over a range of
  parameter values.
+ 
+ ![alt tag](https://github.com/connersk/machine-learning/blob/master/table.png)
 
 
 
